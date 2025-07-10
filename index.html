@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: white;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #f7c59f;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 4rem 2rem;
+    }
+
+    .about {
+      background-color: #e0f7fa;
+    }
+
+    .skills {
+      background-color: #fce4ec;
+    }
+
+    .projects {
+      background-color: #fff3e0;
+    }
+
+    .contact {
+      background-color: #e8f5e9;
+      text-align: center;
+    }
+
+    .project-card {
+      background: white;
+      border: 2px solid #ccc;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: scale(1.03);
+      border-color: #ff6f61;
+    }
+
+    .contact-icons a {
+      margin: 0 1rem;
+      font-size: 1.5rem;
+      color: #333;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>AMAN</h1>
+    <p>Software Developer & Data Analyst</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate and self-driven Computer Science graduate with a strong inclination towards software development and data analytics. With a solid foundation in Python, C++, and JavaScript, I have developed and deployed real-world machine learning models and web applications that solve practical problems. My professional journey includes a recent internship at Celebal Technologies, where I honed my skills in building scalable data pipelines and analytical models using modern technologies like Pandas, NumPy, and scikit-learn. I have also worked on projects involving LSTM-based stock prediction and an intelligent email spam detector. I thrive in collaborative environments and bring a mix of analytical thinking, creativity, and problem-solving to every challenge. Apart from my technical prowess, I enjoy exploring cloud platforms such as AWS and using tools like GitHub and Tableau to deliver data-driven solutions. I continuously seek to improve and am excited to contribute to innovative teams shaping the future of technology.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> C, C++, Python, SQL, JavaScript, HTML, CSS</li>
+      <li><strong>Frameworks:</strong> React.js, TensorFlow</li>
+      <li><strong>Tools:</strong> GitHub, Jupyter Notebook, VSCode</li>
+      <li><strong>Soft Skills:</strong> Critical Thinking, Problem Solving, Team Collaboration</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>📧 Spam Detection System</h3>
+      <p>Built using NLP and classification algorithms, deployed via Streamlit with 97.2% accuracy. <a href="https://github.com/Aman2422/spam-detector" target="_blank">GitHub</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>📈 Stock Price Prediction (LSTM)</h3>
+      <p>Utilized LSTM networks on Yahoo Finance data for stock forecasting. Achieved 0.95 regression score. <a href="https://github.com/Aman2422/Coinstats" target="_blank">GitHub</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>🧠 Face Recognition Attendance System</h3>
+      <p>Implemented real-time facial recognition with OpenCV & Python. <a href="https://github.com/Aman2422/Face-Recognition-Attedance-system-" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📧 aman232002d@gmail.com</p>
+    <p>📱 +91 9318321274</p>
+    <div class="contact-icons">
+      <a href="https://linkedin.com/in/aman-722606233" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/Aman2422" target="_blank">💻 GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aman. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
